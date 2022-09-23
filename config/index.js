@@ -64,7 +64,7 @@ export const USER_CONFIG = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "oj-pB6YsXWfbEf84JGNU3_8CL6y0",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "ooKp2uciuX2WwxP5HDr6sqSmdlBoT3XV8fi48xG5oF8",
+      useTemplateId: "S3xf_uqHCT4QjhfReXAeDTzaiWNLVMdwF43AWLDWWB0",
       // 所在省份
       province: "天津",
       // 所在城市
@@ -147,7 +147,7 @@ export const USER_CONFIG = {
       // 一般都填自己
       name: "自己",
       // 自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "oj-pB6YsXWfbEf84JGNU3_8CL6y0",
+      id: "oj-pB6TfTuCwIUpbtne8oJx_kuv8",
     },
     // 你可以不断按格式往下增加
     // ...
