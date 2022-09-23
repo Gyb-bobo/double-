@@ -32,7 +32,7 @@ export const USER_CONFIG = {
     // 每日一言
     oneTalk: false,
     // 土味情话(彩虹屁)
-    earthyLoveWords: ture,
+    earthyLoveWords: true,
     // 朋友圈文案
     momentCopyrighting: false,
     // 毒鸡汤
@@ -41,7 +41,7 @@ export const USER_CONFIG = {
     poetry: false,
     
     /** 星座运势 */
-    horoscope: ture,
+    horoscope: true,
     
     /** 生日消息和节日消息 */
     birthdayMessage: false,
@@ -64,7 +64,7 @@ export const USER_CONFIG = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "oj-pB6YsXWfbEf84JGNU3_8CL6y0",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "	F33pCoQ5IoaQFCelk7QCHh3suPV66I7WMQKn51FaGL0",
+      useTemplateId: "u4ZBNlzH9XAwW6eyS3kYBn7M0PySmQAp5coWxVuvESA",
       // 所在省份
       province: "天津",
       // 所在城市
@@ -139,7 +139,7 @@ export const USER_CONFIG = {
    */
   
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: "	F33pCoQ5IoaQFCelk7QCHh3suPV66I7WMQKn51FaGL0",
+  CALLBACK_TEMPLATE_ID: "u4ZBNlzH9XAwW6eyS3kYBn7M0PySmQAp5coWxVuvESA",
   
   // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
   CALLBACK_USERS: [
