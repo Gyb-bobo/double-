@@ -28,7 +28,7 @@ export const USER_CONFIG = {
     
     /** 每日N句 */
     // 金山每日一句
-    CIBA: false,
+    CIBA: true,
     // 每日一言
     oneTalk: false,
     // 土味情话(彩虹屁)
@@ -62,7 +62,7 @@ export const USER_CONFIG = {
       // 想要发送的人的名字
       name: "宝宝",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id:"oj-pB6YsXWfbEf84JGNU3_8CL6y0E",
+      id:"oj-pB6YsXWfbEf84JGNU3_8CL6y0",
       // 你想对他发送的模板消息的模板ID
       useTemplateId:"wYLoOkLJ7dvDSCwUhsyhXUZzE_jwtVLuZK3JcncoNHU",
       // 所在省份
@@ -199,7 +199,7 @@ export const USER_CONFIG = {
    * 如果为3, 则仅展示“将要到达” 的3个重要节日提醒，剩下的将被忽略
    * 如果为0, 则默认展示全部
    */
-  FESTIVALS_LIMIT: 1,
+  FESTIVALS_LIMIT: 2,
   
   /** 日期相关 */
   
