@@ -28,9 +28,9 @@ export const USER_CONFIG = {
     
     /** 每日N句 */
     // 金山每日一句
-    CIBA: true,
+    CIBA: false,
     // 每日一言
-    oneTalk: false,
+    oneTalk: true,
     // 土味情话(彩虹屁)
     earthyLoveWords: true,
     // 朋友圈文案
@@ -62,7 +62,7 @@ export const USER_CONFIG = {
       // 想要发送的人的名字
       name: "宝宝",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id:"oj-pB6YsXWfbEf84JGNU3_8CL6y0",
+      id:"oj-pB6UaF_Cnei4r0VPytQO_VlFE",
       // 你想对他发送的模板消息的模板ID
       useTemplateId:"ALC2f1Q4bgPGUIQW5a80IeBH_SIorSkihMYxxlgNt5Y",
       // 所在省份
