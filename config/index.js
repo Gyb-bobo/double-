@@ -60,15 +60,15 @@ export const USER_CONFIG = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: "宝宝",
+      name: "崽崽",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id:"oj-pB6UaF_Cnei4r0VPytQO_VlFE",
       // 你想对他发送的模板消息的模板ID
       useTemplateId:"ALC2f1Q4bgPGUIQW5a80IeBH_SIorSkihMYxxlgNt5Y",
       // 所在省份
-      province: "天津",
+      province: "洛阳",
       // 所在城市
-      city: "天津",
+      city: "洛阳",
       // 新历生日, 仅用作获取星座运势, 格式必须
       horoscopeDate: '06-23',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
@@ -78,7 +78,7 @@ export const USER_CONFIG = {
       // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-        {"type": "*生日", "name": "老婆", "year": "1996", "date": "09-09"},
+        {"type": "*生日", "name": "崽崽", "year": "1996", "date": "09-09"},
         {"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "09-03"},
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {"type": "生日", "name": "李四", "year": "1996", "date": "09-31"},
@@ -95,7 +95,7 @@ export const USER_CONFIG = {
       ]
     },
     {
-      name: "老婆1",
+      name: "崽崽",
       id: "",
       useTemplateId: "",
       province: "",
@@ -160,9 +160,9 @@ export const USER_CONFIG = {
   /** 天气相关 */
   
   // 默认所在省份, USERS 中没填的话, 会默认拿这里的省份
-  PROVINCE: "天津",
+  PROVINCE: "洛阳",
   // 默认所在城市, USERS 中没填的话, 会默认拿这里的城市
-  CITY: "天津",
+  CITY: "洛阳",
   
   /** 重要节日相关 */
   
@@ -189,7 +189,7 @@ export const USER_CONFIG = {
     {"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "09-03"},
     // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
     {"type": "生日", "name": "刘玉婷", "year": "2001", "date": "06-23", isShowAge: true},
-    {"type": "节日", "name": "就刘玉婷生日还有", "year": "2001", "date": "09-01"},
+    {"type": "节日", "name": "距刘玉婷生日还有", "year": "2001", "date": "09-01"},
     // 你可以不断按格式往下增加
     // ...
   ],
