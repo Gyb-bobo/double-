@@ -66,9 +66,9 @@ export const USER_CONFIG = {
       // 你想对他发送的模板消息的模板ID
       useTemplateId:"ALC2f1Q4bgPGUIQW5a80IeBH_SIorSkihMYxxlgNt5Y",
       // 所在省份
-      province: "洛阳",
+      province: "天津",
       // 所在城市
-      city: "洛阳",
+      city: "天津 ",
       // 新历生日, 仅用作获取星座运势, 格式必须
       horoscopeDate: '06-23',
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
